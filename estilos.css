@@ -1,0 +1,45 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    text-align: center;
+  }
+  
+  header {
+    background-color: rgb(222, 181, 181);
+    color: white;
+    padding: 20px;
+    font-size: 20px;
+  }
+  
+  .container {
+    display: flex;
+    min-height: 80vh;
+  }
+  
+  .sidenav {
+    background-color: rgb(167, 167, 214);
+    color: white;
+    flex: 1;
+    padding: 20px;
+  }
+  
+  .main-content {
+    background-color: rgb(234, 234, 202);
+    color: black;
+    flex: 2;
+    padding: 20px;
+  }
+  
+  .sidebar {
+    background-color: rgb(253, 188, 253);
+    color: white;
+    flex: 1;
+    padding: 20px;
+  }
+  
+  footer {
+    background-color: rgb(225, 225, 255);
+    color: white;
+    padding: 20px;
+  }
+  
